@@ -10,6 +10,8 @@ function realTime(){
      let getHours = time.getHours();
      let getMinutes = time.getMinutes();
      let getSeconds = time.getSeconds();
+
+     console.log("Hello world");
       
 
      document.getElementById('year').innerHTML = getYear;
@@ -33,7 +35,7 @@ const currentTime = new Date();
 
 const diff = nextYear - currentTime; 
 
-const daysleft = Math.floor(diff / 1000 / 60 / 60 /24) : 0;
+const daysleft = Math.floor(diff / 1000 / 60 / 60 /24);
 
 const hoursleft = Math.floor(diff / 1000 / 60 / 60) % 24;
 
